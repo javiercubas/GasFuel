@@ -4,6 +4,7 @@ import 'package:flutter_map/flutter_map.dart';
 import 'package:gap/gap.dart';
 import 'package:gas_fuel/screens/add_fuel.dart';
 import 'package:gas_fuel/screens/garaje_screen.dart';
+import 'package:gas_fuel/screens/histoial_fuel.dart';
 import 'package:gas_fuel/screens/map_screen.dart';
 import 'package:latlong2/latlong.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -187,7 +188,7 @@ class _VehiculoScreenState extends State<VehiculoScreen> {
                           image: "assets/historial.png",
                           text: "Historial Repostajes",
                           width: 40.w,
-                          screen: const AddFuelScreen(),
+                          screen: const HistorialFuelScreen(),
                         ),
                       ]),
                 ),
