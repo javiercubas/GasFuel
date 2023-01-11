@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "604350127129",
+    "project_id": "gasfuel-3c164",
+    "storage_bucket": "gasfuel-3c164.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604350127129:android:32f3cdbee3ee9be4f79e88",
+        "android_client_info": {
+          "package_name": "com.example.gas_fuel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "604350127129-afc0uvja1ptej3it5o2b0r7qa3g4svjd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiwjgqbNDNoogMqgIbDkcIOxlbSL8s9tA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "604350127129-afc0uvja1ptej3it5o2b0r7qa3g4svjd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
