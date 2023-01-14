@@ -1,5 +1,5 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
+import 'package:gas_fuel/screens/login.dart';
 import 'package:gas_fuel/screens/vehiculo_screen.dart';
 import 'package:sizer/sizer.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -13,6 +13,8 @@ void main() async {
   runApp(const MyApp());
 }
 
+final navigatorKey = GlobalKey<NavigatorState>();
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -23,7 +25,7 @@ class MyApp extends StatelessWidget {
         title: 'GasFuel',
         debugShowCheckedModeBanner: false,
         home: VehiculoScreen(
-          id: "1",
+          id: "Al1VllObzlVJMKL9Byirrz3d1Br2",
         ),
       );
     });
